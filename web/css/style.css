@@ -13,7 +13,16 @@ body{
 	background: #fff;
 }
 
+#wrap-login{
+	width:990px;
+	margin:0 auto;
+}
 
+#wrap-login input{
+	padding:5px;
+	width:300px;
+	margin-bottom: 10px;
+}
 /*FORMATAÇÃO TOPO*/
 
 #menu-top{

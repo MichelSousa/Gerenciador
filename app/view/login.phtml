@@ -3,14 +3,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Gerenciador</title>
+<link rel="stylesheet" href="<?php $this->BaseUrl()?>/framework2/web/css/style.css"  type="text/css" media="all">
 </head>
 
 <body>
 	
 <?php require_once 'menu.phtml';?>  <!--- INCLUDE DO MENU  --->
 
- <h1><?= $view_titulo ?></h1>
- 
+ <div id="wrap-login">
+ 	 <h1><?= $view_titulo ?></h1>
    <div id="formulario">
 	  <form method="post">
 	    <label>E-mail</label>
@@ -20,7 +21,7 @@
 	    <input type="submit" name="enviar" />	 
 	 </form>
    </div>
-   
+</div>   
 <?php require_once 'footer.phtml';?><!--- INCLUDE DO RODAPE  --->
 
 <tr bgcolor=""></tr>
