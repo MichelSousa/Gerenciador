@@ -40,23 +40,24 @@
 			 
 			  if($contar == 1)
 			  {
-			  	  echo "Usuario existe";
-			      
-			      $_SESSION['login'] = $loginuser;
+			  	  $_SESSION['login'] = $loginuser;
 			      $_SESSION['senha'] = $senhaUser;
-			
 				  header('location:http://127.0.0.1/framework2/admin/home');
 			  }
 			  else
 			  {
-			  	 echo "Usuario não existe por favor verifique sua senha e seu login";
+			  
 				 unset( $_SESSION['login']);
 				 unset( $_SESSION['senha']);
+				 
+				$msg =  "Usuário não existe por favor verifique sua senha e seu login.";
+			  	 
 			  }
 			   
 		    }  
 			  
 			  $dados['titulo']= "Bem vindo a tela de login"; 
+			    $dados['msg']= $msg; 
 	 	      $this->view('login',$dados);
 		}
 		
