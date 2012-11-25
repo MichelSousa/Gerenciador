@@ -1,0 +1,23 @@
+<?php if(!isset($_SESSION['login']) AND (!isset($_SESSION['senha'] )))
+{
+	header('location:http://127.0.0.1/framework2');			  
+} 
+
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" href="<?php $this->BaseUrl()?>/framework2/web/css/style.css"  type="text/css" media="all">
+</head>
+<body>
+
+ <input type="hidden"  value="<?=  $view_user_id?>" />
+ 
+ <?php require_once("admin/adminmenu.phtml")?>
+ 
+ <p>Bem vindo <h1><?=  $view_nome?></h1></p>
+ 
+ <?php require_once("admin/footer.phtml")?>

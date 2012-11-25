@@ -1,0 +1,77 @@
+!SESSION 2012-11-09 19:31:32.782 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation
+
+!ENTRY org.eclipse.ui 4 4 2012-11-09 19:31:41.152
+!MESSAGE Unable to find Action Set: org.eclipse.wst.server.ui.internal.webbrowser.actionSet
+
+!ENTRY org.eclipse.ui.workbench 2 0 2012-11-09 19:31:43.202
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2012-11-09 19:31:43.202
+!MESSAGE Conflict for 'org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu':
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@1aa24ca,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@1d45314),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@326243)),sourcePriority=1064960)
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@15558fd,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@1d45314),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@326243)),sourcePriority=1064960)
+
+!ENTRY org.eclipse.ui 4 4 2012-11-09 19:32:09.826
+!MESSAGE Invalid preference page path: HTML Syntax
+
+!ENTRY org.eclipse.ui 4 4 2012-11-09 19:32:09.826
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-11-09 19:57:53.136 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation
+
+!ENTRY org.eclipse.ui.workbench 2 0 2012-11-09 19:58:04.536
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2012-11-09 19:58:04.536
+!MESSAGE Conflict for 'org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu':
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@330659,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@9dda0e),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@191e025)),sourcePriority=1064960)
+HandlerActivation(commandId=org.eclipse.dltk.ui.edit.text.script.refactor.quickMenu,
+	handler=org.eclipse.dltk.internal.ui.actions.refactoring.RefactorActionGroup$3@1e5d4c1,
+	expression=AndExpression(ActivePartExpression(org.eclipse.php.internal.ui.explorer.PHPExplorerPart@9dda0e),WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@191e025)),sourcePriority=1064960)
+
+!ENTRY org.eclipse.ui 4 4 2012-11-09 19:59:31.323
+!MESSAGE Invalid preference page path: HTML Syntax
+
+!ENTRY org.eclipse.ui 4 4 2012-11-09 19:59:31.323
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-11-10 22:10:28.181 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -showlocation C:\Users\Public\Desktop\FileZilla Client.lnk
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation C:\Users\Public\Desktop\FileZilla Client.lnk
+
+!ENTRY org.eclipse.ui 4 4 2012-11-10 22:54:55.773
+!MESSAGE Invalid preference page path: HTML Syntax
+
+!ENTRY org.eclipse.ui 4 4 2012-11-10 22:54:55.833
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-11-15 16:57:18.511 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pt_BR
+Framework arguments:  -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation
+
+!ENTRY org.eclipse.ui 4 4 2012-11-15 16:59:25.238
+!MESSAGE Invalid preference page path: HTML Syntax
+
+!ENTRY org.eclipse.ui 4 4 2012-11-15 16:59:25.263
+!MESSAGE Invalid preference page path: XML Syntax

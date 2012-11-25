@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" />
+	<title>Grenciador de projeto</title>
+</head>	
+<body>
+	
+	
+	<?php require_once("menu.phtml") ?>
+	
+<h1><?= $view_titulo ?></h1>
+
+
+
+  <form method="post">
+  	   <label>Selecione seu plano</label> 
+  	 <select name="planos">
+  	 	
+  	 	<?php  
+           foreach($view_planos as $linha)
+           { 
+    	     $planos = $linha['PLA_NOME'];
+		   ?>
+		      <option value="<?php echo $planos ?>"><?php echo $planos ?></option>
+		   <?php } ?>  
+			    
+  	 </select><br>
+  	   <label>Selecione o ciclo</label> 
+  	 <select name="ciclo">
+  	 	<option>MENSAL</option>
+  	 	<option>TRIMESTRE</option>
+  	 	<option>SEMESTRE</option>
+  	    <option>ANUAL</option>
+
+  	 </select><br>
+  	 
+    <label>Nome completo</label>
+  <input type="text" name="nome"><br>
+  <label>E-mail</label>
+  <input type="text" name="email"><br>
+  <label>Senha</label>
+  <input type="text" name="senha"><br>
+  <label>Repetir senha</label>
+  <input type="text" name="senha2"><br>	 
+  	  <input type="submit" name="enviar"><br>	 
+  </form>
+	<?php require_once("footer.phtml") ?>
